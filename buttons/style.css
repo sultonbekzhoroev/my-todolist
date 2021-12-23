@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  margin: 40px;
+}
+
+.Primary {
+  border: none;
+  background-color: hsl(240, 100%, 50%);
+  border-radius: 3px;
+  padding: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.Secondary {
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(155, 145, 145);
+  color: white;
+}
+
+.Success {
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: green;
+  padding: 10px;
+  border-radius: 17px;
+  box-shadow: 0 5px 5px;
+}
+
+.Error {
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 5px;
+  color: white;
+  background-color: red;
+}
+
+.Warning {
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  background-color: yellow;
+}

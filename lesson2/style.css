@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+.container {
+  border: 7px solid gray;
+  width: 1000;
+  height: 700px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(253, 167, 8);
+}
+.header {
+  border: 7px solid gray;
+  background-color: ghostwhite;
+  height: 120px;
+  margin: 10px;
+}
+.nav {
+  border: 7px solid gray;
+  height: 45px;
+  margin: 17px;
+}
+.wrapper {
+  position: relative;
+  background-color: ghostwhite;
+  border: 7px solid gray;
+  height: 340px;
+  margin: 10px;
+  padding-right: 30px;
+  padding-left: 5px;
+}
+.main {
+  position: absolute;
+  left: 20px;
+  background-color: ghostwhite;
+  border: 7px solid gray;
+  height: 230px;
+  width: 390px;
+  margin-left: 0px;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+.subcon1 {
+  background-color: ghostwhite;
+  border: 3px solid gray;
+  height: 35px;
+  width: 360px;
+  margin-left: 12px;
+  margin-bottom: 7px;
+}
+.subcon2 {
+  background-color: ghostwhite;
+  border: 3px solid gray;
+  height: 35px;
+  width: 360px;
+  margin-left: 12px;
+}
+.sidebar {
+  position: absolute;
+  left: 490px;
+  background-color: ghostwhite;
+  border: 7px solid gray;
+  height: 230px;
+  width: 390px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.footer {
+  background-color: ghostwhite;
+  border: 7px solid gray;
+  margin: 10px;
+  text-align: center;
+}

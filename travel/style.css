@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clr {
+  clear: both;
+}
+
+.logo {
+  width: 60%;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  border: 1px solid #000;
+  width: 80%;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  margin-bottom: 8px;
+  margin-right: 0;
+  padding: 5px;
+  font-weight: bold;
+}
+
+ul {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+.container {
+  padding: 10px;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://www.ocean.ru/images/news/2020/ioi-conf-1.jpg);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px 0;
+}
+.quote {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Praise", cursive;
+}
+article {
+  text-align: center;
+}
+
+main {
+  padding: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 60px;
+    float: left;
+  }
+
+  ul {
+    text-align: center;
+    float: right;
+  }
+
+  li {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .first-article {
+    float: left;
+    width: 50%;
+  }
+  .yurt {
+    float: right;
+    width: 35%;
+  }
+
+  .botton-wrapper article {
+    width: 33%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+}

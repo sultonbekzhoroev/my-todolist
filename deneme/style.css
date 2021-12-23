@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0;
+  position: relative;
+}
+
+.block {
+  background-size: cover;
+  border: 1px solid black;
+  height: 100px;
+  width: 300px;
+}
+
+.first {
+  height: 300px;
+}
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.second {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  height: 60px;
+}
+
+.name {
+  position: absolute;
+  left: 10px;
+  bottom: 17px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.city {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.3;
+}
+
+.ek {
+  border: 1px solid black;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  top: 362px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}

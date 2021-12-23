@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid:
+    "header header header"
+    "nav content content"
+    "nav footer footer";
+}
+
+.grid-items-1 {
+  border: 1px solid black;
+  grid-area: header;
+  height: 100px;
+}
+.grid-items-2 {
+  border: 1px solid black;
+  grid-area: nav;
+}
+.grid-items-3 {
+  border: 1px solid black;
+  grid-area: content;
+  height: 400px;
+}
+.grid-items-4 {
+  border: 1px solid black;
+  grid-area: footer;
+  height: 70px;
+}

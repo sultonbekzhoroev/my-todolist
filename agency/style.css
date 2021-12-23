@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-color: #333;
+  --light-color: #f4f4f4;
+  --blue-color: #2690d4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 1em 0;
+}
+
+h1,
+h2,
+h3 {
+  padding: 1em 0;
+}
+.bg-dark {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.bg-light {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.bg-blue {
+  background-color: var(--blue-color);
+  color: var(--light-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.showcase {
+  height: 450px;
+  color: #fff;
+  text-align: center;
+}
+
+.bg-image {
+  height: 450px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  background: #333
+    url(https://learn.seytech.co/assets/projects/html-css/images/agency/code-screen.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+
+.showcase-text {
+  text-align: center;
+}
+
+.showcase h1 {
+  padding: 100px 0 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 30px;
+  border: 1px solid #666;
+  margin: 10px 0;
+  transition: transform 0.2s ease-in;
+}
+
+.btn:hover {
+  transform: translateY(-15px);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-first {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.about-text {
+  padding: 0 4em;
+}
+
+.section-first p {
+  width: 75%;
+  margin: auto;
+}
+
+.section-second {
+  padding: 2em 1em 2em;
+  margin: auto;
+}
+
+.card {
+  margin: 10em;
+  height: 515px;
+  width: 272px;
+}
+
+.card img {
+  max-width: 272px;
+}
+
+.card-content {
+  padding: 1.5em;
+}
